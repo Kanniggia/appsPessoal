@@ -1,0 +1,67 @@
+<!-- application/modules/default/views/menu/menu.phtml -->
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  </head>
+  <body>
+    <!--    <ul class="navigation">
+    <?php
+//      $html = array();
+//
+//      foreach ($this->container as $page):
+//        $html[] = "<li>";
+//        $html[] = $this->menu->htmlify($page) . PHP_EOL;
+//
+//        if (!empty($page->pages)):
+//          $html[] = "<ul>";
+//          foreach ($page->pages as $subpage):
+//            $html[] = "<li>";
+//            if ($href = $subpage->getHref()):
+//              $html[] = "<a href=\"{$href}\">";
+//            else:
+//              $html[] = "<span>";
+//              $html[] = "<img src=\"/#\"alt=\"\"/>";
+//              $html[] = $subpage->getLabel();
+//              if ($href):
+//                $html[] = "</a>";
+//              else:
+//                $html[] = "</span>";
+//              endif;
+//              $html[] = "</li>";
+//            endif;
+//          endforeach;
+//          $html[] = "</ul>";
+//        endif;
+//        $html[] = "</li>";
+//      endforeach;
+//
+//      echo join(PHP_EOL, $html);
+    ?>
+        </ul>-->
+    <ul class="nav nav-tabs">
+      <li class="divider-vertical">
+        <a href="#">Início</a>
+      </li>
+      <li class="dropdown disabled">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Imóveis <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li class="disabled"><a href="#">Locação</a></li>
+          <li class="disabled"><a href="#">Temporada</a></li>
+          <li class="disabled"><a href="#">Venda</a></li>
+        </ul>
+      </li>
+      <li class="disabled">
+        <a href="#">Empreendimentos</a>
+      </li>
+      <li class="disabled">
+        <a href="#">Notícias</a>
+      </li>
+      <li class="disabled">
+        <a href="#">Fale Conosco</a>
+      </li>
+      <li class="disabled">
+        <a href="#">Quem Somos</a>
+      </li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+/* 
+    Document   : principal
+    Created on : 23/08/2013, 20:28:52
+    Author     : Bruno Kanniggia
+    Description:
+        Folha de Estilos para o Layout Home
+*/
+
+div#dHeader {
+  background-color: #EEEEEE; 
+  height: 30px;
+  vertical-align: middle;
+}
+
+div#dHeader div#dContato {
+  float: left;
+}
+
+div#dHeader div#dLinguas {
+  float: right;
+}
+
+div#dLogo {
+  height: 128px;
+}
+
+div#dLogo div#dLogoEsquerda {
+  width: 33.3%;
+  float: left;
+}
+
+div#dLogo div#dLogoCentro {
+  width: 33.4%;
+  height: 100%;
+  float: left;
+}
+
+div#dLogo div#dLogoCentro table#tLogoCentro {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#dLogo div#dLogoCentro table#tLogoCentro td.tdSocial{
+  vertical-align: middle;
+}
+
+div#dLogo div#dLogodDireita {
+  width: 33.3%;
+  float: right;
+  text-align: right;
+}
+
+div#dNavigation {
+  width: 100%;
+  height: 40px;
+  background-color: #EEEEEE; 
+}
+
+/*div#dNavigation ul.navigation {
+  width: 100%;
+  height: 40px;
+}
+
+div#dNavigation ul.navigation li {
+  float: left;
+  line-height: 30px;
+  list-style-type:none;
+}
+
+div#dNavigation ul.navigation li a {
+  color: black;
+  display: block;
+  padding: 5px 15px;
+  vertical-align: middle;
+}
+
+div#dNavigation ul.navigation li a:hover {
+
+}*/
+
+div#dContent {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+}
+
+div#dFooter {
+  width: 100%;
+  height: 100px;
+  background-color: #EEEEEE; 
+}
+

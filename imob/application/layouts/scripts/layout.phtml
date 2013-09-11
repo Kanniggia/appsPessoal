@@ -1,0 +1,33 @@
+<!-- application/layouts/scripts/layout.phtml -->
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <?php echo $this->headMeta() ?>
+    <?php echo $this->headTitle() ?>
+    <?php echo $this->jQuery() ?>
+    <?php echo $this->headScript() ?>
+    <?php echo $this->headLink() ?>
+  </head>
+  <body>
+    <div id="dHeader">
+      <?php echo $this->partial("header.phtml") ?>
+    </div>
+
+    <div id="dLogo">
+      <?php echo $this->partial("logo.phtml") ?>
+    </div>
+
+    <div id="dNavigation">
+      <?php $this->navigation()->menu()->setPartial(array('menu/menu.phtml', 'default')) ?>
+      <?php echo $this->navigation()->menu()->render() ?>
+    </div>
+
+    <div id="dContent">
+      <?php echo $this->layout()->content ?>
+    </div>
+
+    <div id="dFooter">
+      <?php echo $this->partial("footer.phtml") ?>
+    </div>
+  </body>
+</html>

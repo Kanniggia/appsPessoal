@@ -1,0 +1,20 @@
+<!-- application/layouts/scripts/header.phtml -->
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  </head>
+  <body>
+    <div id="dContato">
+    </div>
+    <div id="dLinguas">
+      <a href="<?php echo $this->url(array('controller' => 'trocar-lingua-brasileiro'), 'default', true) ?>">
+        <img src="<?php echo $this->baseUrl('images/24x24/bandeira_brasil.png') ?>"/></a>
+      <a href="<?php echo $this->url(array('controller' => 'trocar-lingua-espanhol'), 'default', true) ?>">
+        <img src="<?php echo $this->baseUrl('images/24x24/bandeira_espanha.png') ?>"/></a>
+      <a href="<?php echo $this->url(array('controller' => 'trocar-lingua-americano'), 'default', true) ?>">
+        <img src="<?php echo $this->baseUrl('images/24x24/bandeira_estadosUnidos.png') ?>"/></a>
+      <a href="<?php echo $this->url(array('controller' => 'trocar-lingua-frances'), 'default', true) ?>">
+        <img src="<?php echo $this->baseUrl('images/24x24/bandeira_franca.png') ?>"/></a>
+    </div>
+  </body>
+</html>
